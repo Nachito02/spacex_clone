@@ -243,8 +243,6 @@ section {
     font-size: 50px;
     margin-bottom: 5px;
     font-weight: 700;
-    animation: fadeInUp .5s ease-in-out 0.2s;
-    animation-fill-mode: both;
 }
 
 .section-inner a {
@@ -306,18 +304,7 @@ section {
   transform: translateX(-50%);
   animation: fadeBounce 5s infinite;
 }
-
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(140px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+  
 
 
 @keyframes fadeBounce {

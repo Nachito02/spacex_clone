@@ -4,14 +4,17 @@ window.addEventListener('DOMContentLoaded', () => {
 const overlay = document.getElementById('overlay')
 const menu = document.getElementById('mobile-menu')
 btn.addEventListener('click', navToogle)
-let scrollStarted = false
 function navToogle() {
     btn.classList.toggle('open');
 
     overlay.classList.toggle('overlay-show')
     document.body.classList.toggle('stop-scrolling')
     menu.classList.toggle('show-menu')
+  AOS.refresh()
+  AOS.refreshHard()
+
 }
 
 
 })
+
